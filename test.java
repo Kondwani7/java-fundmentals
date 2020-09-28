@@ -91,8 +91,31 @@ public class test {
             System.out.println(i);
         }
 
+        //Arrays
+        Double[] sneakerPrices = new Double[4];
+        sneakerPrices[0] = 350.0;
+        sneakerPrices[1] = 500.0;
+        sneakerPrices[2] = 750.0;
+        sneakerPrices[3] = 1000.0;
 
-        
+        int totalSneakersCost = 0;
+
+        for( int index=0; index < sneakerPrices.length; index++){
+            totalSneakersCost += sneakerPrices[index];
+        }
+        System.out.println(totalSneakersCost);
+
+        int [] cash = new int[4];
+        cash[0] = 10;
+        cash[1] = 15;
+        cash[2] = 1300;
+        cash[3] = 200;
+
+        int totalCash = 0;
+
+        for (int index =0; index < cash.length; index++){
+            totalCash += cash[index];
+        }System.out.println(totalCash);
 
     }
 }
