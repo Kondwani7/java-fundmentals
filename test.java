@@ -30,6 +30,70 @@ public class test {
         System.out.println(y);
         System.out.println(y++);
 
+        //compound statement
+        double litersPerCup = 0.25;
+        int cups = 5;
+        int person =6;
+
+        person *= litersPerCup * cups;
+        int totalLitersConsumed = person;
+        System.out.println(totalLitersConsumed);
+
+        //conditionals
+        int houseMates = 4;
+        if(houseMates <3){
+            System.out.println("Rent is too expensive");
+        } else if(houseMates <5){
+            System.out.println("Thats chilled");
+        }else{
+            System.out.println("Too many people");
+        }
+
+        // logical operators have And: &&, Or: ||, exclusive Or: ^; negation:!
+
+        //Switch statement
+
+        int favCourse = 4;
+
+        switch(favCourse){
+            case 1:
+                System.out.println("Business Law");
+                break;
+            case 2:
+                System.out.println("International Business A");
+                break;
+            case 3:
+                System.out.println("Organisational Behaviour");
+                break;
+            case 4:
+                System.out.println("New Venture Management");
+        }
+
+        //while loop
+
+        int planets = 9;
+        while (planets <=9){
+            System.out.println(planets);
+            planets++;
+        }
+
+        //do while loop
+
+        int chargers = 2;
+        do{
+            System.out.println(chargers);
+            System.out.println("times 2 =");
+            chargers *= 2;
+        }while (chargers<10);
+
+        //for loop
+        for (Double i = 1.5; i <=50.0; i*=2){
+            System.out.println(i);
+        }
+
+
+        
+
     }
 }
 
